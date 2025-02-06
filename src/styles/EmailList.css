@@ -1,0 +1,18 @@
+.email-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.domain-header {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.email-tag {
+  cursor: pointer;
+}
+
+.remove-button {
+  margin-left: 10px;
+}

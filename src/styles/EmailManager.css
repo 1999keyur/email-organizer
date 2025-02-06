@@ -1,0 +1,34 @@
+/* src/components/EmailManager.css */
+
+.email-manager-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 24px;
+  background-color: #f0f2f5;
+}
+
+.email-cards {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.email-card {
+  margin-bottom: 24px;
+}
+
+.email-list-container {
+  margin-top: 16px;
+}
+
+.send-button {
+  margin-top: 16px;
+}
+
+/* Inline error message styling */
+.error-message {
+  color: red;
+  margin-top: 8px;
+  font-size: 14px;
+}
